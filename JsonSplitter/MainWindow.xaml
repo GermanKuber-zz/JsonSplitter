@@ -1,0 +1,23 @@
+﻿<Window x:Class="JsonSplitter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JsonSplitter"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox x:Name="txtFileSource" IsEnabled="False" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap"  VerticalAlignment="Top" Width="421" Margin="20,49,0,0"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="20,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Archivo Json "/><Run Text="p"/><Run Text="ara cortar"/><Run Text=" :"/></TextBlock>
+        <Button x:Name="button" Content="..." HorizontalAlignment="Left" VerticalAlignment="Top" Width="29" Margin="455,49,0,0" Height="23" Click="button_Click"/>
+        <TextBox x:Name="txtFolderDestination" IsEnabled="False" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap"  VerticalAlignment="Top" Width="421" Margin="20,132,0,0"/>
+        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="20,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Carpeta de destino :"/>
+        <Button x:Name="button_Copy" Content="..." HorizontalAlignment="Left" VerticalAlignment="Top" Width="29" Margin="455,132,0,0" Height="23" Click="button_Copy_Click"/>
+        <Button x:Name="btnCut" Content="Cortar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="58" Margin="426,234,0,0" Height="23" Click="btnCut_Click"/>
+        <ComboBox x:Name="drpCount" HorizontalAlignment="Left" Margin="204,183,0,0" VerticalAlignment="Top" Width="54"/>
+        <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" Margin="20,183,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Cantidad de objetos por "/><Run Text="f"/><Run Text="ile :"/></TextBlock>
+        <CheckBox x:Name="chkOneObject" Content="" HorizontalAlignment="Left" Margin="204,221,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" Margin="20,221,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Generar un objecto por file :"/>
+
+    </Grid>
+</Window>

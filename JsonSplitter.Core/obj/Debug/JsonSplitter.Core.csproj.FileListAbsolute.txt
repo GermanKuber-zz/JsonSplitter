@@ -1,0 +1,7 @@
+c:\users\germankuber\documents\visual studio 2015\Projects\JsonSplitter\JsonSplitter.Core\bin\Debug\JsonSplitter.Core.dll
+c:\users\germankuber\documents\visual studio 2015\Projects\JsonSplitter\JsonSplitter.Core\bin\Debug\JsonSplitter.Core.pdb
+c:\users\germankuber\documents\visual studio 2015\Projects\JsonSplitter\JsonSplitter.Core\bin\Debug\Newtonsoft.Json.dll
+c:\users\germankuber\documents\visual studio 2015\Projects\JsonSplitter\JsonSplitter.Core\bin\Debug\Newtonsoft.Json.xml
+c:\users\germankuber\documents\visual studio 2015\Projects\JsonSplitter\JsonSplitter.Core\obj\Debug\JsonSplitter.Core.csprojResolveAssemblyReference.cache
+c:\users\germankuber\documents\visual studio 2015\Projects\JsonSplitter\JsonSplitter.Core\obj\Debug\JsonSplitter.Core.dll
+c:\users\germankuber\documents\visual studio 2015\Projects\JsonSplitter\JsonSplitter.Core\obj\Debug\JsonSplitter.Core.pdb
